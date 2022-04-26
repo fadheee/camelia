@@ -6,8 +6,8 @@ import time
 
 class login_modules:
     wait_time_out = 5
-    cameliausername = 'sqatester1'
-    cameliapassword = 'Camelia121#'
+    cameliausername = ' '
+    cameliapassword = ' '
 
     def __init__(self, drv):
         self.drv = drv
