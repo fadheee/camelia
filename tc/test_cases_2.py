@@ -11,7 +11,7 @@ from pages.line_test_modules import line_test_modules
 class test_cases_2(unittest.TestCase):
     driver = None
     exec_path = "/usr/bin/chromedriver"
-    base_URL = "https://camelia.tm.com.my/login"
+    base_URL = " "
 
     @classmethod
     def setUpClass(cls):
