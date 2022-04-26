@@ -14,7 +14,7 @@ def setup():
     # options.add_experimental_option("detach", True)
     # driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
     driver = webdriver.Chrome(executable_path= "/usr/bin/chromedriver")
-    driver.get("https://camelia.tm.com.my/login")
+    driver.get(" ")
     driver.implicitly_wait(10)
     driver.maximize_window()
 
@@ -29,10 +29,10 @@ def setup():
 # test login
 def test_login():
     username = driver.find_element(By.NAME, 'username')
-    username.send_keys('sqatester1')
+    username.send_keys(' ')
 
     password = driver.find_element(By.NAME, 'password')
-    password.send_keys('Camelia121#')
+    password.send_keys(' ')
 
     login_btn = driver.find_element(By.CSS_SELECTOR, '[type="submit"]')
     login_btn.click()
