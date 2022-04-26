@@ -58,8 +58,8 @@ def test_fibre():
     searchby = driver.find_element(By.CSS_SELECTOR, '[value = "manualid"]')
     searchby.click()
 
-    fibre = driver.find_element(By.CSS_SELECTOR, '[placeholder="e.g. faisal4@unifi, aishaish@streamyx"]')
-    fibre.send_keys('faiismail9@unifi')
+    fibre = driver.find_element(By.CSS_SELECTOR, '[placeholder="e.g. "]')
+    fibre.send_keys(' ')
 
     submit_btn = driver.find_element(By.CSS_SELECTOR, '[class="button-rounded button-rounded--black m-l-15 fs-12"]')
     submit_btn.click()
